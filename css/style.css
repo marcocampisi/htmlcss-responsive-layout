@@ -85,6 +85,21 @@ main section {
 main section:nth-child(4) .container .cards .card {
     border-radius: 1.25rem;
 }
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section-container .cont-70,
+.section-container .cont-30 {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
 /* RESPONSIVE */
 
 /* TABLET */
@@ -99,6 +114,13 @@ main section:nth-child(4) .container .cards .card {
         width: calc(((100% / 3) * 2) - 1.25rem);
     }
 
+    .section-container .cont-70 {
+        width: 70%;
+        padding-right: 1.25rem;
+    }
+    .section-container .cont-30 {
+        width: 30%;
+    }
     
 }
 
