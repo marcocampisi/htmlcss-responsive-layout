@@ -82,6 +82,10 @@ main section {
     border-radius: 10px;
 }
 
+main section:nth-child(2) .container .cards {
+    justify-content: space-around;
+}
+
 main section:nth-child(4) .container .cards .card {
     border-radius: 1.25rem;
 }
@@ -105,6 +109,9 @@ main section:nth-child(4) .container .cards .card {
     font-size: 3em;
 }
 
+footer * {
+    color: white;
+}
 
 
 /* RESPONSIVE */
@@ -131,8 +138,7 @@ main section:nth-child(4) .container .cards .card {
 
     .small-container {
         width: 50%;
-    }
-    
+    }  
 }
 
 /* DESKTOP */
