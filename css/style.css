@@ -7,4 +7,34 @@
     background-color: var(--first-color);
 }
 
+/* HEADER */
+
+.header main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-content .nav-container {
+    display: none;
+}
+
+/* RESPONSIVE */
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    /* HEADER */
+    .header-main-content .hamburger-container {
+        display: none;
+    }
+
+    .header-main-content .nav-container {
+        display: block
+    }
+    /* MAIN */
+}
 
