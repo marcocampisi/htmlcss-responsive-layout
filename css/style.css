@@ -67,7 +67,10 @@ main section {
     border-radius: 10px;
 }
 
-
+.card-right {
+    background-color: white;
+    border-radius: 20px;
+}
 
 /* RESPONSIVE */
 
