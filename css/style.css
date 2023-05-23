@@ -15,6 +15,10 @@
     flex-direction: row;
 }
 
+.header-main-content > div {
+    padding: 10px;
+}
+
 .header-main-content .nav-container {
     display: none;
 }
@@ -30,6 +34,16 @@
     color: white;
     padding: 10px;
 }
+
+.logo-container {
+    padding: 10px;
+}
+
+.hamburger-container > i {
+    color: white;
+    font-size: 2em;
+}
+
 
 /* MAIN */
 
@@ -50,6 +64,7 @@ main section {
 
 .card > div {
     padding: 0.625rem;
+    border-radius: 10px;
 }
 
 
@@ -68,13 +83,7 @@ main section {
         width: calc(((100% / 3) * 2) - 1.25rem);
     }
 
-    .card .main-card-content {
-        display: flex;
-    }
-
-    .card .main-card-content > div {
-        width: 50%;
-    }
+    
 }
 
 /* DESKTOP */
@@ -88,5 +97,13 @@ main section {
         display: block
     }
     /* MAIN */
+
+    .card .main-card-content {
+        display: flex;
+    }
+
+    .card .main-card-content > div {
+        width: 50%;
+    }
 }
 
