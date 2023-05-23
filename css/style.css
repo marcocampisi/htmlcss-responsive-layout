@@ -31,13 +31,50 @@
     padding: 10px;
 }
 
+/* MAIN */
+
+main section {
+    padding: 2.5rem 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.625rem;
+}
+
+.card {
+    width: calc(100% - 1.25rem);
+    margin: 0 0.625rem 1.25rem;
+}
+
+.card > div {
+    padding: 0.625rem;
+}
+
 
 
 /* RESPONSIVE */
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+    /* HEADER */
+    /* MAIN */
+    .card {
+        width: calc((100% / 3) - 1.25rem);
+    }
 
+    .card:first-child {
+        width: calc(((100% / 3) * 2) - 1.25rem);
+    }
+
+    .card .main-card-content {
+        display: flex;
+    }
+
+    .card .main-card-content > div {
+        width: 50%;
+    }
 }
 
 /* DESKTOP */
