@@ -64,14 +64,27 @@ main section {
 
 .card > div {
     padding: 0.625rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .card-right {
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
+.main-headings {
+    text-align: center;
+    padding: 0 0.625rem;
+}
+
+.card.secondary-color-bg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main section:nth-child(3) .container > div {
+    margin-bottom: 1.25rem;
+}
 /* RESPONSIVE */
 
 /* TABLET */
@@ -82,7 +95,7 @@ main section {
         width: calc((100% / 3) - 1.25rem);
     }
 
-    .card:first-child {
+    main section:first-child .card:first-child {
         width: calc(((100% / 3) * 2) - 1.25rem);
     }
 
