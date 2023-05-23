@@ -9,14 +9,29 @@
 
 /* HEADER */
 
-.header main-content {
+.header-main-content {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .header-main-content .nav-container {
     display: none;
 }
+
+.header-main-content .nav-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-main-content .nav-container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
 
 /* RESPONSIVE */
 
