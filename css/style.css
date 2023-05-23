@@ -68,13 +68,13 @@ main section {
 }
 
 .card-right {
-    background-color: white;
     border-radius: 1.25rem;
 }
 
 .main-headings {
     text-align: center;
     padding: 0 0.625rem;
+    margin-bottom: 1.25rem;
 }
 
 .card.secondary-color-bg {
@@ -82,8 +82,8 @@ main section {
     border-radius: 10px;
 }
 
-main section:nth-child(3) .container > div {
-    margin-bottom: 1.25rem;
+main section:nth-child(4) .container .cards .card {
+    border-radius: 1.25rem;
 }
 /* RESPONSIVE */
 

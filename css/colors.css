@@ -27,3 +27,7 @@
 .secondary-color-bg {
     background-color: var(--secondary-color);
 }
+
+.white-color-bg {
+    background-color: white;
+}
