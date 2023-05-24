@@ -178,6 +178,18 @@ main section:nth-child(2) .white-text * {
     
 }
 
+.testimonial-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.testimonial-content > div {
+    padding: 1rem 0;
+}
+
 .card.secondary-color-bg {
     width: 100%;
     border-radius: .625rem;
@@ -195,11 +207,6 @@ h3.main-color-text {
     font-size: 1.5rem;
 }
 
-.centered {
-    text-align: center;
-    justify-content: center;
-}
-
 .big-i i {
     font-size: 5rem;
  }
@@ -211,10 +218,6 @@ h3.main-color-text {
     padding: .625rem .9375rem;
     font-weight: bold;
     margin-left: 1.25rem;
-}
-
-.flexed {
-    display: flex;
 }
 
 .section-container {
