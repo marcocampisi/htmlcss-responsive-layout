@@ -23,6 +23,10 @@
     font-weight: 700;
 }
 
+.light-text {
+    font-weight: 200;
+}
+
 .big-num {
     font-size: 3.5em;
 }
