@@ -2,10 +2,15 @@
     --main-color: #0078FD;
     --main-color-light: #ADD9FF;
     --secondary-color: #8C87E1;
+    --card-color: #5e6d7f;
 }
 
 .main-color-text {
     color: var(--main-color);
+}
+
+.card-color-text {
+    color: var(--card-color);
 }
 
 .main-color-bg {

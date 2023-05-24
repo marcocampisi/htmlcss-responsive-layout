@@ -76,6 +76,31 @@ main section {
     border-radius: 1.25rem;
 }
 
+.main-card-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -0.625rem;
+    padding: 0 2.5rem;
+}
+
+.main-card-text > * {
+    padding-bottom: 1.25rem;
+    padding-left: .625rem;
+}
+
+.button-container {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+#app-store-button {
+    color: white;
+    background-color: var(--main-color);
+    margin: 0;
+}
+
 .main-headings {
     text-align: center;
     padding: 0 0.625rem;
@@ -169,6 +194,10 @@ footer * {
     }
     .section-container .cont-30 {
         width: 30%;
+    }
+
+    .button-container {
+        justify-content: flex-start;
     }
 
     .small-container {
