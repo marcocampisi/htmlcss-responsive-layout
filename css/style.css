@@ -234,6 +234,31 @@ h3.main-color-text {
     vertical-align: top;
 }
 
+.cont-70 * {
+    padding: 1.25rem 0;
+}
+
+.cont-30 *:not(i) {
+    padding: 1rem 0;
+}
+
+#about-pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#about-pic {
+    border-radius: 50%;
+    width: 50%;
+}
+
+#linkedin-button {
+    padding: .625rem;
+}
+
 #free {
     color: #f5bd69;
     font-size: 3em;
