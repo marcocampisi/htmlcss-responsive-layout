@@ -264,6 +264,15 @@ footer * {
     flex-grow: 1;
 }
 
+.purple-button {
+    background-color: var(--secondary-color);
+    padding: .625rem  1.5625rem;
+    color: white;
+}
+
+main section:nth-child(4) .cards .card > * {
+    padding: .625rem .9375rem;
+}
 
 /* RESPONSIVE */
 
@@ -308,6 +317,10 @@ footer * {
         width: 70%;
         padding: 0 auto;
     }
+
+    main section:nth-child(4) .container .cards .card {
+        width: calc((100% / 2) - 1.25rem)
+    }
 }
 
 /* DESKTOP */
@@ -342,6 +355,10 @@ footer * {
 
     .main-card-img img {
         width: 15rem;
+    }
+
+    main section:nth-child(4) .container .cards .card {
+        width: calc((100% / 3) - 1.25rem)
     }
 }
 
