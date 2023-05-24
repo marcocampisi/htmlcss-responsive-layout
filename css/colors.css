@@ -1,7 +1,7 @@
 :root {
     --main-color: #0078FD;
     --main-color-light: #ADD9FF;
-    --secondary-color: #8C87E1;
+    --secondary-color: #9992e8;
     --card-color: #5e6d7f;
 }
 
@@ -35,6 +35,10 @@
 
 .white-color-bg {
     background-color: white;
+}
+
+.white-text {
+    color: white;
 }
 
 .gray-color-bg {
