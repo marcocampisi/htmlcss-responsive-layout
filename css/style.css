@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 
 .header-main-content > div {
@@ -37,6 +38,10 @@
 
 .logo-container {
     padding: 10px;
+}
+
+.nav-container ul {
+    align-items: center;
 }
 
 .hamburger-container > i {
@@ -88,6 +93,15 @@ main section:nth-child(2) .container .cards {
 
 main section:nth-child(4) .container .cards .card {
     border-radius: 1.25rem;
+}
+
+.base-button {
+    background-color: white;
+    border: none;
+    border-radius: 1.25rem;
+    padding: .625rem .9375rem;
+    font-weight: bold;
+    margin-left: 1.25rem;
 }
 
 .section-container {
