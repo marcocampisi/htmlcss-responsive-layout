@@ -113,6 +113,27 @@ footer * {
     color: white;
 }
 
+.testimonial {
+    padding: .625rem;
+    border-radius: 1.25rem;
+    margin: 1.25rem 0;
+}
+
+.testimonial .testimonial-img {
+    width: 12.5rem;
+    height: 12.5rem;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.testimonial .testimonial-img img {
+    display: block;
+}
+
+.testimonial .testimonial-content {
+    flex-grow: 1;
+}
+
 
 /* RESPONSIVE */
 
@@ -139,6 +160,11 @@ footer * {
     .small-container {
         width: 50%;
     }  
+
+    .testimonial {
+        display: flex;
+        text-align: left;
+    }
 }
 
 /* DESKTOP */
@@ -165,9 +191,10 @@ footer * {
         justify-content: space-around;
     }
 
-    main > .secondary-color-bg .card {
+    main section:nth-child(2) .container .cards .card {
         display: inline-block;
-        width: calc(50% - 20px);
+        width: calc(50% - 1.25rem);
+        align-items: flex-end;
     }
 }
 
