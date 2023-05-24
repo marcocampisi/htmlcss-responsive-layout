@@ -82,8 +82,8 @@ main section {
     border-radius: 10px;
 }
 
-main section:nth-child(2) .container .cards {
-    justify-content: space-around;
+main > .secondary-color-bg .card {
+    width: 100%;
 }
 
 main section:nth-child(4) .container .cards .card {
@@ -159,6 +159,15 @@ footer * {
 
     .card .main-card-content > div {
         width: 50%;
+    }
+
+    main section:nth-child(2) .container .cards {
+        justify-content: space-around;
+    }
+
+    main > .secondary-color-bg .card {
+        display: inline-block;
+        width: calc(50% - 20px);
     }
 }
 
