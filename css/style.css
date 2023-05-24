@@ -60,6 +60,7 @@ main section {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -0.625rem;
+    align-items: stretch;
 }
 
 .card {
@@ -80,7 +81,12 @@ main section {
     display: flex;
     justify-content: center;
     margin-bottom: -0.625rem;
+    padding-bottom: 0;
     padding: 0 2.5rem;
+}
+
+.main-card-img img {
+    padding-top: 1.5rem;
 }
 
 .main-card-text > * {
@@ -101,6 +107,10 @@ main section {
     margin: 0;
 }
 
+.main-card-content > *:not(.main-card-img) {
+    padding: 1rem 0;
+}
+
 .main-headings {
     text-align: center;
     padding: 0 0.625rem;
@@ -119,6 +129,19 @@ main > .secondary-color-bg .card {
 main section:nth-child(4) .container .cards .card {
     border-radius: 1.25rem;
 }
+
+h3.main-color-text {
+    font-size: 1.5rem;
+}
+
+.centered {
+    text-align: center;
+    justify-content: center;
+}
+
+.big-i i {
+    font-size: 5rem;
+ }
 
 .base-button {
     background-color: white;
@@ -208,6 +231,15 @@ footer * {
         display: flex;
         text-align: left;
     }
+
+    .cards, .card {
+        height: 100%;
+    }
+
+    .main-card-img {
+        width: 70%;
+        padding: 0 auto;
+    }
 }
 
 /* DESKTOP */
@@ -222,11 +254,11 @@ footer * {
     }
     /* MAIN */
 
-    .card .main-card-content {
+    .card .main-card-content.flexed {
         display: flex;
     }
 
-    .card .main-card-content > div {
+    main section:first-child .main-card-content > div {
         width: 50%;
     }
 
@@ -238,6 +270,10 @@ footer * {
         display: inline-block;
         width: calc(50% - 1.25rem);
         align-items: flex-end;
+    }
+
+    .main-card-img img {
+        width: 15rem;
     }
 }
 
