@@ -113,13 +113,13 @@ main section:nth-child(2) .white-text * {
 
 .main-card-img {
     display: flex;
-    justify-content: center;
+    align-items: flex-end;
     margin-bottom: -0.625rem;
-    padding-bottom: 0;
-    padding: 0 2.5rem;
 }
 
 .main-card-img img {
+    display: block;
+    margin: 0 auto;
     padding-top: 1.5rem;
 }
 
@@ -143,6 +143,7 @@ main section:nth-child(2) .white-text * {
 
 .main-card-content > *:not(.main-card-img) {
     padding: 1rem 0;
+    flex-wrap: wrap;
 }
 
 .main-headings {
